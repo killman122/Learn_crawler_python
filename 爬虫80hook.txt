@@ -1,0 +1,43 @@
+hook
+替换原方法
+
+
+1.汇编
+call的替换
+push替换为jmp
+1.覆盖原函数	
+function xxxx(){
+		console.log("1111");
+}
+xxxx=function(){
+	console.log("22222");
+}
+2.
+function xxxx(){
+		console.log("1111");
+}
+var xxx=xxxx;
+xxxx=function(){
+	console.log("2222")
+}
+
+2.hook是有时机的
+可以通过Object.defineProperty	替换一个对象的属性
+属性可能里面固存的是方法 也可能就是一个值(getter,setter)
+(function() {
+var aaa="";
+	Object.defineproperty(document,'cookie',{
+		set:function(val){
+		aaa=val;
+			return val;
+		},
+		get:function(){
+			return aaa;
+		}
+	});
+})();
+实际修改的是document.cookie的信息
+在控制台注入的hook	在刷新网页后就失效
+有两种解决方法第一种:在网页刚开始加载第一个js中设置断点,然后在控制台手动注入hook
+(有可能注入hook的时机会晚一点)
+第二中:利用fd的替换响应注入hook

@@ -1,0 +1,315 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>6a5ea1d7-6348-4a2d-921a-83a72e54b92a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>爬虫47urllib post请求百度翻译.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>爬虫</Name>
+    <RootNamespace>爬虫</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ceshi.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cheak.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mo1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="健康160.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="动态验证码.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="微信.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="腾讯视频解析.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="签到.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫75scrapy安装及其使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫47urllib post请求百度翻译.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫42urllib一个类型和六个方法.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫41urllib的基本使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫38异常.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫36文件的读写.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫35文件的打开与关闭.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫34函数的局部变量与全局变量.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫33函数的参数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫32 函数的定义和调用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫31字典的高级 遍历.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫30字典的高级 删除.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫29字典的高级 添加.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫28 字典的高级修改.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫27字典的高级查询 .py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫26切片.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫25元组高级.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫24列表高级 删除.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫23列表高级 查询.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫22列表高级修改.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫21 列表的高级添加.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫20字符串的高级使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫19流程控制语句for循环.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫18流程控制语句elif.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫17流程控制语句ifelse关键字.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫16流程控制语句if关键字.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫15输入与输出.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫14逻辑运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫13比较运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫12复合赋值运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫11赋值运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫10算数运算符.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫33函数的返回值.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫37 文件的序列化与反序列化 json.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫44urllib请求对象的定制.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫45urllib get请求的quote方法.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫46urllib get请求的urlencode方法.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫48urllib post请求百度翻译之详细翻译.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫50urllib ajax的get请求豆瓣电影第一页.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫51urllib ajax的get请求豆瓣电影的前十页%281%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫51urllib ajax的get请求豆瓣电影的第几页.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫51urllib豆瓣电影排行前十页%282%29.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫52 urllib ajax的post请求肯德基官网.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫53urllib 异常.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫54 urllib微博的cookie登陆.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫55urllib京东的cookie登陆绕过查看用户账单信息.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫56urllib handler处理器的使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫57 urllib代理.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫58urllib代理池.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫59xpath插件的安装与基本使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫60解析获取百度网站的百度一下.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫61爬虫解析站长素材.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫62解析jsonpath.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫63解析jsonpath解析淘票票py.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫65beautifulsoup解析星巴克.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫64解析beautifulsoup的使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫66selenium.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫67selenium元素定位.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫68selenium元素访问.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫69selenium的交互.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫70request基本使用.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫71request get请求.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫72requests的post请求.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫73requests代理py.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫74request cookie登陆古诗文网.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫76Js逆向之百度翻译.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫84bilibili.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫9类型转换bool.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫7类型转换转换为浮点数.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫6类型转换转换为整型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫5查看变量的数据类型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫4数据类型列表元组字典.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫3变量类型.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫2变量的定义.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫1注释.py" />
+    <Compile Include="爬虫8类型转换转换为字符串.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫43urllib下载.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="爬虫实战虎牙.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="翻译.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JavaScript1.js" />
+    <Content Include="WebPage1.html" />
+    <Content Include="爬虫59xpath框架的使用.html" />
+    <Content Include="爬虫49random方法的调用.txt" />
+    <Content Include="爬虫40爬虫相关概念的介绍.txt" />
+    <Content Include="爬虫39页面结构的介绍.html" />
+    <Content Include="books.json">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="爬虫64.html" />
+    <Content Include="爬虫77逆向之网页详解.html" />
+    <Content Include="爬虫78html列表标签.html" />
+    <Content Include="爬虫79javascript常见语法.js" />
+    <Content Include="爬虫80hook.txt" />
+    <Content Include="爬虫82常用算法加密之AES之不拷贝直接调用函数.txt" />
+    <Content Include="爬虫83常用算法案例.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
