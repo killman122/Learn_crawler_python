@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6a5ea1d7-6348-4a2d-921a-83a72e54b92a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>爬虫47urllib post请求百度翻译.py</StartupFile>
+    <StartupFile>爬虫15输入与输出.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,7 +37,7 @@
     <Compile Include="健康160.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="动态验证码.py">
+    <Compile Include="动态验证码%28selenium%29.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="微信.py">

@@ -22,6 +22,7 @@ a = '123'
 b = 123
 # print(a+b)
 print(a + str(b))
+print(int(a)+b)
 # 可以选择将整型数据通过字符串的强制类型转换转换为整型
 
 

@@ -10,7 +10,7 @@ b = 3.2
 print(b)
 print(type(b))
 
-# bolean
+# boolean
 c = True
 d = False
 print(a, b)

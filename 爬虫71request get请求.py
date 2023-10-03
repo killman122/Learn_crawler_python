@@ -28,8 +28,9 @@ data={
 #params 参数
 #kwargs 字典
 response=requests.get(url=url,params=data,headers=headers)
+print(response.url)
 print(response.text)
 #参数使用params传递
 #参数无需urlencode的编码
 #不需要请求对象的定制
-#请求资源路径中的问号可以加也可以不加
+#请求资源路径中的问号可以加也可以不加,在使用requests的时候会自动在请求头url中添加相关的参数,一般将get/post请求中的data/params中使用字典的形式传递一个/多个键值对,在使用时候,requests库自行对参数进行编码

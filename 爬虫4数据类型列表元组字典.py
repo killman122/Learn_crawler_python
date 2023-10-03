@@ -19,6 +19,7 @@ for i in age_tuple:
 # 应用场景:scrapy框架使用
 # 格式:变量名={key:value,key1:value1}
 person = {'name': '红浪漫', 'age': '19'}
-print(person)
+print(person,type(person))
+
 for key in person:
     print(key)

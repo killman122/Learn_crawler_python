@@ -69,3 +69,13 @@ print(result, type(result))  # 转换之后
 f = open('text.txt', 'r')
 result1 = json.load(f)
 print(result1, type(result1))
+
+
+
+"""
+注意此方法JavaScript中的特有方法不要将语言之间的方法使用混乱
+
+使用JSON.parse()方法能够将一个字符串,字符串中包含类似字典的结构,这里的字典貌似算一个对象,通过JSON.parse()方法将字符串转换为json对象
+
+使用JSON.stringify()将json对象转换为json字符串也就是一般的字符串
+"""

@@ -17,6 +17,7 @@ print(person)
 # 如果要删除整个字典 那么就要使用del 字典名 后面无需加key的名称 如此删除会导致整个字典删除掉 如果在后面使用print 打印的时候就会报错
 print(person)
 del person
+# print(person)
 
 # 使用cle删除的案例
 # 使用cle删除是后面不能加参数在括号内 但是保留了字典的结构{}

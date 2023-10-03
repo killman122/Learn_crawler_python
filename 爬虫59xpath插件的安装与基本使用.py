@@ -13,9 +13,18 @@ from lxml import etree  # 这里的from指的是库与logger的库相同类型 �
 # 解析本地文件使用的是etree.parse('xx.html')
 # 解析服务器响应文件使用etree.HTML(response.read().decode('utf-8'))
 tree = etree.parse('爬虫59xpath框架的使用.html')  # xpath解析本地文件
+#tree = etree.HTML(response.read().decode('utf-8')) 直接解析整个网页的在线获取
 # print(tree)
 # tree.xpath('xpath路径')
 # 使用xpath解析后的文件为列表的格式
+
+'''
+for video_url,video_name in zip(video_urls,video_names):
+    print(video_url)
+    print(video_nale)
+# 4.保存解析后的数据
+'''
+
 '''
 1.查询语法
 //:查找所有子孙节点,不考虑层级关系 无限嵌套所有的子节点

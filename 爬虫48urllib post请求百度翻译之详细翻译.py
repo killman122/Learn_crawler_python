@@ -67,7 +67,7 @@ data = {
 print(data)
 # post请求的参数 必须进行编码 并且调用encode方法
 data = urllib.parse.urlencode(data).encode()
-# print(data,type(data))
+print(data,type(data))
 request = urllib.request.Request(url=url1, data=data, headers=headers)  # 如果要在请求头中加入请求体则要使用data=data在函数的参数内
 
 # post请求的参数 是不会拼接在url后面的但是get请求可以    并且参数是要放在请求对象的定制参数中  也就是上面的request

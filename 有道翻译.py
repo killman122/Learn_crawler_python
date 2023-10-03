@@ -45,7 +45,7 @@ while 1:
         "keyfrom": "fanyi.web",
         "action": "FY_BY_REALTlME",
     }
-    # print(f'这是测试输出你想要的data请求头中的数据{data}')
+    print(f'这是测试输出你想要的data请求头中的数据{data}')
 
     response = requests.post(url=url, data=data, headers=headers)
     # print(response)

@@ -1,4 +1,7 @@
 #UA
+import random
+
+
 def get_ua():
     first_num=random.randint(55,102)
     third_num=random.randint(0,5005)
